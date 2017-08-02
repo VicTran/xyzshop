@@ -1,0 +1,115 @@
+body {
+    background-color: whitesmoke;
+    margin-top: 101px;
+}
+a {
+    text-decoration: none;
+}
+#header {
+    background-color: slategrey;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+#header .header-container{
+    width: 75%;
+    margin: auto;
+}
+
+#cart{
+    background-color: white;
+    margin: 6px;
+}
+
+#cart img{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+}
+
+ul{
+    list-style-type: none;  
+}
+li{
+    text-decoration: none;
+}
+
+#background-image {
+    width: 100%;
+    height: auto;
+}
+
+#products{
+    width: 75%;
+    margin: auto;
+}
+
+#products p {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    padding: 4px;
+}
+#products p:first-child{
+    margin-top: 10px;
+}
+
+#products .col-md-2{
+    background-color: white;
+    width: 320px;
+    margin: 12px;
+    padding: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+#products .col-md-2:first-child{
+}
+#products .col-md-2:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.price{
+    color: red!important;
+}
+.container{
+    border: solid 1px lightgray;
+    width: 75%;
+    margin: auto;
+    padding: 16px;
+    background-color: white;
+}
+.container p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container p.name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#size {
+    width: 60px;
+}
+
+#general-button {
+    color: white;
+}
+
+#general-button:hover {
+    color: dodgerblue;
+}
+
+.container form{
+    margin: 0;
+    padding: 0;
+}
+
+#product-image div.col-md-8 div.carousel-fade div.carousel-inner {
+    border: solid lightgray 1px;
+}
+
+#product-image div.col-md-8 img {
+    width: 100%;
+    height: auto;
+}
